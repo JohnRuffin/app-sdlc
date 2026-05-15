@@ -1,10 +1,14 @@
-export default function HomePage() {
+import Link from 'next/link';
+
+export default function Home() {
   return (
-    <main>
-      <h1>Welcome to the homepage</h1>
-      <footer>
-        Built with agentic-sdlc
-      </footer>
-    </main>
+    <>
+      <nav>
+        <Link href="/">app-sdlc</Link>
+      </nav>
+      <main>
+        {/* Homepage content can go here */}
+      </main>
+    </>
   );
 }
