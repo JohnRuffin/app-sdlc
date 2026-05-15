@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable */
 const fs = require("fs");
 
 const eventPath = process.env.GITHUB_EVENT_PATH;

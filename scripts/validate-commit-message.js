@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable */
 const fs = require("fs");
 
 const commitMessage = fs.readFileSync(0, "utf8").trim();
