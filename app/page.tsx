@@ -1,7 +1,10 @@
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
-      <h1>Welcome to app-sdlc</h1>
+      <h1>Welcome to the homepage</h1>
+      <footer>
+        Built with agentic-sdlc
+      </footer>
     </main>
   );
 }
